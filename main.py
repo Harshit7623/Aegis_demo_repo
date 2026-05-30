@@ -45,3 +45,7 @@ if __name__ == "__main__":
 # commit 4 by dev-user
 \n# Quick healthcheck for demo\n@app.get('/health')\ndef health():\n    return {'status':'ok'}\n
 # commit 4 by dev-user
+
+# commit 8 by bob
+\napp.logger.info('Auth payload processed')\n
+# commit 8 by bob
