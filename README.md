@@ -24,3 +24,7 @@ curl -X POST http://localhost:8080/auth/token \
   -H "Content-Type: application/json" \
   -d '{"username":"demo","password":"demo","redirect_url":"https://legacy-idp.example.com/validate"}'
 ```
+
+# commit 2 by bob
+\n### Legacy SSO Notes\nThis service proxies to legacy SSO and leaks cookies in certain redirects.\n
+# commit 2 by bob
