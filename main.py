@@ -41,3 +41,7 @@ def auth_token():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
+
+# commit 4 by dev-user
+\n# Quick healthcheck for demo\n@app.get('/health')\ndef health():\n    return {'status':'ok'}\n
+# commit 4 by dev-user
